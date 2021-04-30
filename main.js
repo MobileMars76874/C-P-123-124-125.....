@@ -20,7 +20,6 @@ console.log("Model Loaded!");
 }
 
 function draw(){
-canvas.clear();
 textSize(Wrist_d);
 fill("#00ffff");
 text("Hello", 50, 200);
