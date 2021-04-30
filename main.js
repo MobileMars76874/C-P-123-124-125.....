@@ -38,5 +38,5 @@ background('#6C91C2');
 
 textSize(difference);
 fill('#00ffff');
-text('Peter', 50, 400);
+text('Hello', 50, 400);
 }
