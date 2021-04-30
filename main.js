@@ -14,7 +14,7 @@ leftWristX = 0;
 }
 
 function modelLoaded() {
-  console.log('PoseNet Is Initialized!');
+  console.log('Model Loaded!');
 }
 
 
@@ -33,10 +33,7 @@ function gotPoses(results)
 }
 
 function draw() {
-background('#6C91C2');
-
-  document.getElementById("font_size").innerHTML = "Font size of the text will be = " + difference +"px";
 textSize(difference);
-fill('#FFE787');
-text('Peter', 50, 400);
+fill('##00ffff');
+text('Hello', 50, 400);
 }
