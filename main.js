@@ -9,7 +9,7 @@ function setup(){
 canvas = createCanvas(550, 500);
 canvas.position(560, 150);
 Video = createCapture(VIDEO);
-Video.size(550, 500);
+Video.size(150, 500);
 
 poseNet = ml5.poseNet(Video, model_loaded);
 poseNet.on("pose", gopose);
@@ -22,7 +22,7 @@ console.log("Model Loaded!");
 function draw(){
 textSize(Wrist_d);
 fill("#00ffff");
-text("Hello", 50, 200);
+text("Hello", 50, 400);
 }
 
 function gopose(results){
