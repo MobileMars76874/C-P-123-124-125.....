@@ -33,7 +33,10 @@ function gotPoses(results)
 }
 
 function draw() {
+background('#03fcb1');
+
+ 
 textSize(difference);
-fill('##00ffff');
+fill('#00ffb3');
 text('Hello', 50, 400);
 }
