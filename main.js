@@ -35,7 +35,7 @@ function gotPoses(results)
 function draw() {
 background('#03fcb1');
 
- 
+document.getElementById("font_size").innerHTML = "Font size of the text will be = " + difference +"px";
 textSize(difference);
 fill('#00ffb3');
 text('Hello', 50, 400);
